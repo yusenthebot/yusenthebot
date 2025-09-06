@@ -20,7 +20,7 @@
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
-  <img src="https://img.shields.io/badge/Verilog-8A2BE2?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/Matlab-8A2BE2?style=for-the-badge&logoColor=white" />
   <img src="https://img.shields.io/badge/FPGA-00979D?style=for-the-badge&logo=intel&logoColor=white" />
   <img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white" />
 </p>
@@ -44,14 +44,8 @@
 ---
 
 ## 🌐 Connect with Me
-<p>
-  <a href="www.linkedin.com/in/yusen-xie-5327b8382" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="mailto:yusenthebot@outlook.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-</p>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yusen-xie-5327b8382/)
+[![Email](https://img.shields.io/badge/Outlook-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white)](mailto:yusenthebot@outlook.com)
 
 ---
 
