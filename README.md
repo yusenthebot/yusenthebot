@@ -1,7 +1,10 @@
-<!-- 双足机器人动画 Banner -->
+<!-- ASCII机器人动画 Banner -->
 <p align="center">
-  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTZ1bDloZTdrdjdvazR6dmo5d296ZWxpZGdud2k1ZDZrdjY0ZmpzcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JPUyaK87LZ43q9t5ej/giphy.gif" width="300" alt="Biped Robot Animation"/>
+  <a href="https://yusenthebot.github.io/yusenthebot/robot-animation/" target="_blank">
+    <img src="https://img.shields.io/badge/🤖_View_My_ASCII_Robot-Click_Here!-00BFFF?style=for-the-badge" alt="ASCII Robot Animation"/>
+  </a>
 </p>
+
 <h1 align="center">Hi there 👋, I'm Yusen Xie</h1>
 <h3 align="center">🎓 Artificial Intelligence Engineering Student @ Carnegie Mellon University</h3>
 
