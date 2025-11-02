@@ -194,7 +194,7 @@
             pos = s(13 + tilt, -3 + baseY);
             setChar(pos.x, pos.y, '┘');
             
-            // Arms (simplified for standalone version)
+            // Arms - COMPLETE waving animation
             const isWaving = armPhase > 0;
             
             if (isWaving) {
@@ -210,11 +210,87 @@
                     armRaise = 1 - ((waveProgress - 0.7) / 0.3) * 0.7;
                 }
                 
-                // Draw waving arms (simplified)
+                // LEFT ARM WAVING
                 pos = s(-4 + tilt, -9 + baseY);
                 setChar(pos.x, pos.y, '╟');
+                
+                const leftShoulderY = -9 - Math.floor(armRaise * 3);
+                pos = s(-5 + tilt, leftShoulderY + baseY);
+                setChar(pos.x, pos.y, '╱');
+                pos = s(-6 + tilt, leftShoulderY - 1 + baseY);
+                setChar(pos.x, pos.y, '█');
+                pos = s(-6 + tilt, leftShoulderY - 2 + baseY);
+                setChar(pos.x, pos.y, '▓');
+                
+                const leftElbowY = leftShoulderY - 3;
+                pos = s(-7 + tilt, leftElbowY + baseY);
+                setChar(pos.x, pos.y, '●');
+                pos = s(-8 + tilt, leftElbowY - 1 + baseY);
+                setChar(pos.x, pos.y, '╱');
+                pos = s(-9 + tilt, leftElbowY - 2 + baseY);
+                setChar(pos.x, pos.y, '▓');
+                pos = s(-10 + tilt, leftElbowY - 3 + baseY);
+                setChar(pos.x, pos.y, '▒');
+                
+                const leftHandX = -11 + Math.floor(waveSide * scale);
+                const leftHandY = leftElbowY - 3;
+                
+                // Left hand
+                for (let hy = -1; hy <= 1; hy++) {
+                    pos = s(leftHandX - 1 + tilt, leftHandY + hy + baseY);
+                    setChar(pos.x, pos.y, hy === -1 ? '┌' : '│');
+                    pos = s(leftHandX + tilt, leftHandY + hy + baseY);
+                    setChar(pos.x, pos.y, hy === -1 ? '─' : '█');
+                    pos = s(leftHandX + 1 + tilt, leftHandY + hy + baseY);
+                    setChar(pos.x, pos.y, hy === -1 ? '┐' : '│');
+                }
+                
+                // Fingers
+                for (let fx = -1; fx <= 1; fx++) {
+                    pos = s(leftHandX + fx + tilt, leftHandY + 2 + baseY);
+                    setChar(pos.x, pos.y, '│');
+                }
+                
+                // RIGHT ARM WAVING
                 pos = s(13 + tilt, -9 + baseY);
                 setChar(pos.x, pos.y, '╢');
+                
+                const rightShoulderY = -9 - Math.floor(armRaise * 3);
+                pos = s(14 + tilt, rightShoulderY + baseY);
+                setChar(pos.x, pos.y, '╲');
+                pos = s(15 + tilt, rightShoulderY - 1 + baseY);
+                setChar(pos.x, pos.y, '█');
+                pos = s(15 + tilt, rightShoulderY - 2 + baseY);
+                setChar(pos.x, pos.y, '▒');
+                
+                const rightElbowY = rightShoulderY - 3;
+                pos = s(16 + tilt, rightElbowY + baseY);
+                setChar(pos.x, pos.y, '●');
+                pos = s(17 + tilt, rightElbowY - 1 + baseY);
+                setChar(pos.x, pos.y, '╲');
+                pos = s(18 + tilt, rightElbowY - 2 + baseY);
+                setChar(pos.x, pos.y, '▒');
+                pos = s(19 + tilt, rightElbowY - 3 + baseY);
+                setChar(pos.x, pos.y, '░');
+                
+                const rightHandX = 20 - Math.floor(waveSide * scale);
+                const rightHandY = rightElbowY - 3;
+                
+                // Right hand
+                for (let hy = -1; hy <= 1; hy++) {
+                    pos = s(rightHandX - 1 + tilt, rightHandY + hy + baseY);
+                    setChar(pos.x, pos.y, hy === -1 ? '┌' : '│');
+                    pos = s(rightHandX + tilt, rightHandY + hy + baseY);
+                    setChar(pos.x, pos.y, hy === -1 ? '─' : '▒');
+                    pos = s(rightHandX + 1 + tilt, rightHandY + hy + baseY);
+                    setChar(pos.x, pos.y, hy === -1 ? '┐' : '│');
+                }
+                
+                // Fingers
+                for (let fx = -1; fx <= 1; fx++) {
+                    pos = s(rightHandX + fx + tilt, rightHandY + 2 + baseY);
+                    setChar(pos.x, pos.y, '│');
+                }
             } else {
                 // Arms at rest
                 const leftArmX = [-4, -5, -6, -6, -6, -6, -6, -6, -6, -5];
@@ -234,7 +310,7 @@
                 });
             }
             
-            // Legs (simplified)
+            // Legs
             const leftLegPhase = Math.sin(legPhase);
             const rightLegPhase = Math.sin(legPhase + Math.PI);
             
@@ -309,32 +385,32 @@
             
             if (time < walkCloseDuration) {
                 const progress = time / walkCloseDuration;
-                scale = 0.3 + progress * 0.7;
-                centerY = height - 18 - (scale - 0.3) * 22;
+                scale = 0.35 + progress * 0.45;
+                centerY = height - 20 - (scale - 0.35) * 8;
                 legPhase = time * 0.06;
                 armPhase = 0;
             } else if (time < walkCloseDuration + stopDuration) {
-                scale = 1.0;
-                centerY = height - 33.4;
+                scale = 0.8;
+                centerY = height - 24.4;
                 legPhase = walkCloseDuration * 0.06;
                 armPhase = 0;
             } else if (time < walkCloseDuration + stopDuration + waveDuration) {
-                scale = 1.0;
-                centerY = height - 33.4;
+                scale = 0.8;
+                centerY = height - 24.4;
                 legPhase = walkCloseDuration * 0.06;
                 const waveTime = time - (walkCloseDuration + stopDuration);
                 armPhase = (waveTime / waveDuration) * Math.PI * 2;
             } else if (time < totalDuration) {
                 const walkTime = time - (walkCloseDuration + stopDuration + waveDuration);
                 const progress = walkTime / walkAwayDuration;
-                scale = 1.0 - progress * 0.7;
-                centerY = height - 33.4 + progress * 22;
+                scale = 0.8 - progress * 0.45;
+                centerY = height - 24.4 + progress * 10;
                 legPhase = (walkCloseDuration * 0.06) + (walkTime * 0.06);
                 armPhase = 0;
             } else {
                 time = 0;
-                scale = 0.3;
-                centerY = height - 18;
+                scale = 0.35;
+                centerY = height - 20;
                 legPhase = 0;
                 armPhase = 0;
             }
