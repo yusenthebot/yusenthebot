@@ -1,8 +1,6 @@
 <!-- ASCII机器人动画 Banner -->
 <p align="center">
-  <a href="https://yusenthebot.github.io/yusenthebot/robot-animation/" target="_blank">
-    <img src="https://img.shields.io/badge/🤖_View_My_ASCII_Robot-Click_Here!-00BFFF?style=for-the-badge" alt="ASCII Robot Animation"/>
-  </a>
+  <img src="robot.gif" width="500" alt="ASCII Robot Animation"/>
 </p>
 
 <h1 align="center">Hi there 👋, I'm Yusen Xie</h1>
