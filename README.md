@@ -62,37 +62,33 @@
 ╚══════════════════════════════════════════════════════════════╝
 ```
 
+<br>
+
+<a href="https://github.com/VectorRobotics"><img src="https://img.shields.io/badge/VectorRobotics-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+
+<h3>Co-founder & Builder</h3>
+
+<a href="https://github.com/VectorRobotics/vector-os-nano"><img src="https://img.shields.io/badge/Vector_OS_Nano-000000?style=for-the-badge&logo=ros&logoColor=white" /></a>
+<img src="https://img.shields.io/badge/ROS2_Humble-22314E?style=for-the-badge&logo=ros&logoColor=white" />
+<img src="https://img.shields.io/badge/MuJoCo-222222?style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/Isaac_Sim-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
+
 </div>
 
-<table align="center">
-<tr>
-<td width="120" align="center"><b>ORG</b></td>
-<td><a href="https://github.com/VectorRobotics"><b>VectorRobotics</b></a></td>
-</tr>
-<tr>
-<td align="center"><b>ROLE</b></td>
-<td>Developer & Maintainer</td>
-</tr>
-<tr>
-<td align="center"><b>PROJECT</b></td>
-<td><a href="https://github.com/VectorRobotics/vector-os-nano"><b>Vector OS Nano</b></a> — Cross-embodiment robot operating system</td>
-</tr>
-<tr>
-<td align="center"><b>STACK</b></td>
-<td>ROS2 Humble / MuJoCo / Isaac Sim / Unitree Go2 + SO-ARM101</td>
-</tr>
-<tr>
-<td align="center"><b>SCOPE</b></td>
-<td>Autonomous navigation, NL control, sim-to-real transfer</td>
-</tr>
-</table>
+**Cross-embodiment robot operating system** with industrial-grade autonomous navigation,
+natural language control, and sim-to-real transfer.
 
-```
-  OTHER DEPLOYMENTS:
-  ├── vector-robotics-core    General-purpose agentic robotics system (Ubuntu + ROS2)
-  ├── openclaw-dashboard      Terminal-aesthetic real-time agent monitoring panel
-  └── G1-locomotion           End-to-end humanoid locomotion & manipulation
-```
+Hardware: **Unitree Go2 + SO-ARM101** | CMU Robotics Institute
+
+<div align="center">
+
+| | |
+|---|---|
+| **vector-robotics-core** | General-purpose agentic robotics system (Ubuntu + ROS2) |
+| **openclaw-dashboard** | Terminal-aesthetic real-time agent monitoring panel |
+| **G1-locomotion** | End-to-end humanoid locomotion & manipulation |
+
+</div>
 
 ---
 
