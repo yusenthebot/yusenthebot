@@ -1,19 +1,18 @@
-
 <div align="center">
 
 ```
- ╔══════════════════════════════════════════════════════════════════════════╗
- ║                                                                        ║
- ║  ██╗   ██╗██╗   ██╗███████╗███████╗███╗   ██╗    ██╗  ██╗██╗███████╗  ║
- ║  ╚██╗ ██╔╝██║   ██║██╔════╝██╔════╝████╗  ██║    ╚██╗██╔╝██║██╔════╝  ║
- ║   ╚████╔╝ ██║   ██║███████╗█████╗  ██╔██╗ ██║     ╚███╔╝ ██║█████╗    ║
- ║    ╚██╔╝  ██║   ██║╚════██║██╔══╝  ██║╚██╗██║     ██╔██╗ ██║██╔══╝    ║
- ║     ██║   ╚██████╔╝███████║███████╗██║ ╚████║    ██╔╝ ██╗██║███████╗  ║
- ║     ╚═╝    ╚═════╝ ╚══════╝╚══════╝╚═╝  ╚═══╝    ╚═╝  ╚═╝╚═╝╚══════╝  ║
- ║                                                                        ║
- ║           [ FULL-STACK ROBOTICS ENGINEER // CMU AIE ]                  ║
- ║                                                                        ║
- ╚══════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════════════════════════════╗
+║                                                                       ║
+║  ██╗   ██╗██╗   ██╗███████╗███████╗███╗   ██╗    ██╗  ██╗██╗███████╗  ║
+║  ╚██╗ ██╔╝██║   ██║██╔════╝██╔════╝████╗  ██║    ╚██╗██╔╝██║██╔════╝  ║
+║   ╚████╔╝ ██║   ██║███████╗█████╗  ██╔██╗ ██║     ╚███╔╝ ██║█████╗    ║
+║    ╚██╔╝  ██║   ██║╚════██║██╔══╝  ██║╚██╗██║     ██╔██╗ ██║██╔══╝    ║
+║     ██║   ╚██████╔╝███████║███████╗██║ ╚████║    ██╔╝ ██╗██║███████╗  ║
+║     ╚═╝    ╚═════╝ ╚══════╝╚══════╝╚═╝  ╚═══╝    ╚═╝  ╚═╝╚═╝╚══════╝  ║
+║                                                                       ║
+║              [ FULL-STACK ROBOTICS ENGINEER // CMU AIE ]              ║
+║                                                                       ║
+╚═══════════════════════════════════════════════════════════════════════╝
 ```
 
 <br>
@@ -39,15 +38,18 @@
 </div>
 
 ```
-  I build robots end-to-end — from low-level motor control to high-level AI reasoning.
-  
+  I build robots end-to-end — from low-level motor control
+  to high-level AI reasoning.
+
   AI Engineering @ Carnegie Mellon University.
-  
-  Core maintainer of Vector OS Nano — a cross-embodiment robot operating system
-  with autonomous navigation, natural language control, and sim-to-real transfer.
-  
-  I believe the future belongs to machines that can perceive, plan, and physically
-  act in the real world. I'm here to build that future.
+
+  Core maintainer of Vector OS Nano — a cross-embodiment robot
+  operating system with autonomous navigation, natural language
+  control, and sim-to-real transfer.
+
+  I believe the future belongs to machines that can perceive,
+  plan, and physically act in the real world.
+  I'm here to build that future.
 ```
 
 ---
@@ -168,9 +170,9 @@ drwxr-xr-x  SIMULATION    Isaac Sim, MuJoCo, Gazebo, Sim-to-Real Transfer
 <br><br>
 
 ```
- ┌─────────────────────────────────────────────────────────────┐
- │  [ STATUS: ONLINE ]  //  "One actuator at a time."          │
- └─────────────────────────────────────────────────────────────┘
+┌───────────────────────────────────────────────────────────┐
+│  [ STATUS: ONLINE ]  //  "One actuator at a time."        │
+└───────────────────────────────────────────────────────────┘
 ```
 
 </div>
