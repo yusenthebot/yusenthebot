@@ -1,92 +1,176 @@
 
+<div align="center">
+
 ```
-██╗   ██╗██╗   ██╗███████╗███████╗███╗   ██╗    ██╗  ██╗██╗███████╗
-╚██╗ ██╔╝██║   ██║██╔════╝██╔════╝████╗  ██║    ╚██╗██╔╝██║██╔════╝
- ╚████╔╝ ██║   ██║███████╗█████╗  ██╔██╗ ██║     ╚███╔╝ ██║█████╗  
-  ╚██╔╝  ██║   ██║╚════██║██╔══╝  ██║╚██╗██║     ██╔██╗ ██║██╔══╝  
-   ██║   ╚██████╔╝███████║███████╗██║ ╚████║    ██╔╝ ██╗██║███████╗
-   ╚═╝    ╚═════╝ ╚══════╝╚══════╝╚═╝  ╚═══╝    ╚═╝  ╚═╝╚═╝╚══════╝
+ ╔══════════════════════════════════════════════════════════════════════════╗
+ ║                                                                        ║
+ ║  ██╗   ██╗██╗   ██╗███████╗███████╗███╗   ██╗    ██╗  ██╗██╗███████╗  ║
+ ║  ╚██╗ ██╔╝██║   ██║██╔════╝██╔════╝████╗  ██║    ╚██╗██╔╝██║██╔════╝  ║
+ ║   ╚████╔╝ ██║   ██║███████╗█████╗  ██╔██╗ ██║     ╚███╔╝ ██║█████╗    ║
+ ║    ╚██╔╝  ██║   ██║╚════██║██╔══╝  ██║╚██╗██║     ██╔██╗ ██║██╔══╝    ║
+ ║     ██║   ╚██████╔╝███████║███████╗██║ ╚████║    ██╔╝ ██╗██║███████╗  ║
+ ║     ╚═╝    ╚═════╝ ╚══════╝╚══════╝╚═╝  ╚═══╝    ╚═╝  ╚═╝╚═╝╚══════╝  ║
+ ║                                                                        ║
+ ║           [ FULL-STACK ROBOTICS ENGINEER // CMU AIE ]                  ║
+ ║                                                                        ║
+ ╚══════════════════════════════════════════════════════════════════════════╝
 ```
 
-<p align="center">
-  <a href="https://yusenthebot.github.io"><img src="https://img.shields.io/badge/%5B_ENTER_TERMINAL_%5D-000000?style=for-the-badge&logoColor=white" /></a>
-</p>
+<br>
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=20&pause=1000&color=FFFFFF&center=true&vCenter=true&width=600&lines=guest%40yusen-xie%3A~%24+cat+identity.txt;Full-Stack+Robotics+Engineer;AI+Engineering+%40+Carnegie+Mellon+University;Building+machines+that+see%2C+think%2C+and+act">
-</p>
+<a href="https://yusenthebot.github.io"><img src="https://img.shields.io/badge/>>>_ENTER__TERMINAL-000000?style=for-the-badge&logoColor=white" /></a>
+
+<br>
+
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=18&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=650&lines=%24+whoami;Yusen+Xie+%7C+Robotics+%2B+AI+%7C+Carnegie+Mellon+University;%24+cat+%2Fetc%2Fmission;Building+machines+that+see%2C+think%2C+and+act;%24+systemctl+status+vector-os;%E2%97%8F+vector-os-nano.service+%E2%80%94+ACTIVE+(running)">
+
+</div>
 
 ---
 
-### `> cat /sys/info/about.md`
-
-I build robots end-to-end: from low-level motor control to high-level AI reasoning.  
-Currently at **Carnegie Mellon University** studying AI Engineering, focused on  
-**embodied intelligence** — machines that perceive, plan, and physically act in the real world.
+<div align="center">
 
 ```
-SYSTEM MODULES:
-  Perception .... Computer Vision, LiDAR, Sensor Fusion
-  Planning ...... Motion Planning, Task Scheduling, SLAM
-  Control ....... Real-time C++ Controllers, ROS2 Lifecycle Nodes
-  Hardware ...... AI + Hardware Co-design, FPGA, Embedded Systems
-  Software ...... React, Node.js, Docker, CI/CD Pipelines
+╔══════════════════════════════════════════════════════════════╗
+║  $ cat /sys/info/about.md                                    ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+```
+  I build robots end-to-end — from low-level motor control to high-level AI reasoning.
+  
+  AI Engineering @ Carnegie Mellon University.
+  
+  Core maintainer of Vector OS Nano — a cross-embodiment robot operating system
+  with autonomous navigation, natural language control, and sim-to-real transfer.
+  
+  I believe the future belongs to machines that can perceive, plan, and physically
+  act in the real world. I'm here to build that future.
 ```
 
 ---
 
-### `> ls /sys/skills/`
+<div align="center">
 
-**Languages & Core**
+```
+╔══════════════════════════════════════════════════════════════╗
+║  $ cat /org/vector-robotics/manifest.yml                     ║
+╚══════════════════════════════════════════════════════════════╝
+```
 
+</div>
+
+<table align="center">
+<tr>
+<td width="120" align="center"><b>ORG</b></td>
+<td><a href="https://github.com/VectorRobotics"><b>VectorRobotics</b></a></td>
+</tr>
+<tr>
+<td align="center"><b>ROLE</b></td>
+<td>Developer & Maintainer</td>
+</tr>
+<tr>
+<td align="center"><b>PROJECT</b></td>
+<td><a href="https://github.com/VectorRobotics/vector-os-nano"><b>Vector OS Nano</b></a> — Cross-embodiment robot operating system</td>
+</tr>
+<tr>
+<td align="center"><b>STACK</b></td>
+<td>ROS2 Humble / MuJoCo / Isaac Sim / Unitree Go2 + SO-ARM101</td>
+</tr>
+<tr>
+<td align="center"><b>SCOPE</b></td>
+<td>Autonomous navigation, NL control, sim-to-real transfer</td>
+</tr>
+</table>
+
+```
+  OTHER DEPLOYMENTS:
+  ├── vector-robotics-core    General-purpose agentic robotics system (Ubuntu + ROS2)
+  ├── openclaw-dashboard      Terminal-aesthetic real-time agent monitoring panel
+  └── G1-locomotion           End-to-end humanoid locomotion & manipulation
+```
+
+---
+
+<div align="center">
+
+```
+╔══════════════════════════════════════════════════════════════╗
+║  $ ls -la /sys/skills/                                       ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+```
+drwxr-xr-x  PERCEPTION    Computer Vision, LiDAR, Sensor Fusion, SLAM
+drwxr-xr-x  PLANNING      Motion Planning, Task Scheduling, Behavior Trees
+drwxr-xr-x  CONTROL       Real-time C++ Controllers, ROS2 Lifecycle Nodes
+drwxr-xr-x  HARDWARE      FPGA, ESP32, AI+Hardware Co-design, Embedded
+drwxr-xr-x  SOFTWARE      React, Node.js, Docker, CI/CD, Full-Stack Web
+drwxr-xr-x  SIMULATION    Isaac Sim, MuJoCo, Gazebo, Sim-to-Real Transfer
+```
+
+<div align="center">
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/MATLAB-orange?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" />
-</p>
-
-**Robotics & AI**
-
-<p>
   <img src="https://img.shields.io/badge/ROS2-22314E?style=flat-square&logo=ros&logoColor=white" />
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
+  <img src="https://img.shields.io/badge/MuJoCo-222222?style=flat-square&logoColor=white" />
   <img src="https://img.shields.io/badge/Isaac_Sim-76B900?style=flat-square&logo=nvidia&logoColor=white" />
-  <img src="https://img.shields.io/badge/MuJoCo-4A154B?style=flat-square&logoColor=white" />
-</p>
-
-**Hardware & Infra**
-
-<p>
   <img src="https://img.shields.io/badge/FPGA-00979D?style=flat-square&logo=intel&logoColor=white" />
-  <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
 </p>
+</div>
 
 ---
 
-### `> cat /var/log/current_focus.log`
+<div align="center">
 
 ```
-[2025] Embodied AI — End-to-end locomotion & manipulation
-[2025] Humanoid Robotics — Autonomous reward search via MJX
-[2025] AI + Hardware — Co-design for real-time edge inference
+╔══════════════════════════════════════════════════════════════╗
+║  $ tail -f /var/log/current_focus.log                        ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+```
+  [2025-04-03 ACTIVE]  Vector OS Nano — cross-embodiment autonomy stack
+  [2025-03-xx ACTIVE]  Embodied AI — end-to-end locomotion & manipulation
+  [2025-02-xx ACTIVE]  Humanoid Robotics — autonomous reward via MJX
+  [2025-01-xx DONE  ]  OpenClaw Dashboard — terminal-aesthetic agent monitor
 ```
 
 ---
 
-### `> ping yusen-xie --contact`
+<div align="center">
 
-<p>
-  <a href="https://yusenthebot.github.io"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/yusen-xie-5327b8382/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:yusenthebot@outlook.com"><img src="https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" /></a>
-</p>
+```
+╔══════════════════════════════════════════════════════════════╗
+║  $ ping yusen-xie --establish-link                           ║
+╚══════════════════════════════════════════════════════════════╝
+```
 
----
+<br>
 
-<p align="center"><code>[ STATUS: ONLINE ] — "Building the future, one actuator at a time."</code></p>
+<a href="https://yusenthebot.github.io"><img src="https://img.shields.io/badge/Terminal_Portfolio-000000?style=for-the-badge&logo=windowsterminal&logoColor=white" /></a>
+<a href="https://github.com/VectorRobotics"><img src="https://img.shields.io/badge/Vector_Robotics-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/yusen-xie-5327b8382/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="mailto:yusenthebot@outlook.com"><img src="https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" /></a>
+
+<br><br>
+
+```
+ ┌─────────────────────────────────────────────────────────────┐
+ │  [ STATUS: ONLINE ]  //  "One actuator at a time."          │
+ └─────────────────────────────────────────────────────────────┘
+```
+
+</div>
