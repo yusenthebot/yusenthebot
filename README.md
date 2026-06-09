@@ -8,7 +8,7 @@
    ██║   ╚██████╔╝███████║███████╗██║ ╚████║    ██╔╝ ██╗██║███████╗
    ╚═╝    ╚═════╝ ╚══════╝╚══════╝╚═╝  ╚═══╝    ╚═╝  ╚═╝╚═╝╚══════╝
 
-        FULL-STACK ROBOTICS ENGINEER // CMU AIE
+        FULL-STACK ROBOTICS ENGINEER // USYD & CMU
 </pre>
 
 <br>
