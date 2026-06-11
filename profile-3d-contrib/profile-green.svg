@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Placeholder for the 3D contribution graph (light / green variant).
+  Overwritten by .github/workflows/profile-3d.yml on its first run.
+  Sized ~480px tall to match the real Action output, so the layout does not
+  shift when the graph lands. Light-panel styling for prefers-color-scheme:
+  light. Inline only, system fonts, camo-safe.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 480" width="880" height="480"
+     font-family="ui-monospace, 'SF Mono', 'Cascadia Code', 'JetBrains Mono', Consolas, monospace"
+     role="img" aria-label="3D contribution graph: awaiting first render by GitHub Action">
+  <rect x="0" y="0" width="880" height="480" rx="8" fill="#f6f8fa"/>
+  <rect x="0.5" y="0.5" width="879" height="479" rx="8" fill="none" stroke="#d0d7de" stroke-width="1"/>
+  <text x="440" y="236" text-anchor="middle" fill="#1a7f37" font-size="14">[ CONTRIB TELEMETRY: AWAITING FIRST RENDER ]</text>
+  <text x="440" y="260" text-anchor="middle" fill="#57606a" font-size="12">regenerated daily by .github/workflows/profile-3d.yml - this placeholder is replaced after the first run</text>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Placeholder for the 3D contribution graph (dark / night-rainbow variant).
+  Overwritten by .github/workflows/profile-3d.yml on its first run.
+  Sized ~480px tall to match the real Action output, so the layout does not
+  shift when the graph lands. Themed to match assets/hud-banner.svg so the
+  README section never renders a broken image. Inline only, system fonts,
+  camo-safe.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 480" width="880" height="480"
+     font-family="ui-monospace, 'SF Mono', 'Cascadia Code', 'JetBrains Mono', Consolas, monospace"
+     role="img" aria-label="3D contribution graph: awaiting first render by GitHub Action">
+  <rect x="0" y="0" width="880" height="480" rx="8" fill="#0a0e14"/>
+  <rect x="0.5" y="0.5" width="879" height="479" rx="8" fill="none" stroke="#1c3b30" stroke-width="1"/>
+  <text x="440" y="236" text-anchor="middle" fill="#00ff9c" font-size="14">[ CONTRIB TELEMETRY: AWAITING FIRST RENDER ]</text>
+  <text x="440" y="260" text-anchor="middle" fill="#5f7a72" font-size="12">regenerated daily by .github/workflows/profile-3d.yml - this placeholder is replaced after the first run</text>
+</svg>

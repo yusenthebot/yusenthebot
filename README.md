@@ -1,172 +1,62 @@
-<div align="center">
-
-<pre>
-██╗   ██╗██╗   ██╗███████╗███████╗███╗   ██╗    ██╗  ██╗██╗███████╗
-╚██╗ ██╔╝██║   ██║██╔════╝██╔════╝████╗  ██║    ╚██╗██╔╝██║██╔════╝
- ╚████╔╝ ██║   ██║███████╗█████╗  ██╔██╗ ██║     ╚███╔╝ ██║█████╗  
-  ╚██╔╝  ██║   ██║╚════██║██╔══╝  ██║╚██╗██║     ██╔██╗ ██║██╔══╝  
-   ██║   ╚██████╔╝███████║███████╗██║ ╚████║    ██╔╝ ██╗██║███████╗
-   ╚═╝    ╚═════╝ ╚══════╝╚══════╝╚═╝  ╚═══╝    ╚═╝  ╚═╝╚═╝╚══════╝
-
-        FULL-STACK ROBOTICS ENGINEER // USYD & CMU
-</pre>
-
-<br>
-
-<a href="https://yusenthebot.github.io"><img src="robot.gif" width="500" alt="Pixel Robot V — Click to interact" /></a>
-
-<a href="https://yusenthebot.github.io"><img src="https://img.shields.io/badge/>>>_ENTER__TERMINAL-000000?style=for-the-badge&logoColor=white" /></a>
-
-<br>
-
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=18&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=650&lines=%24+whoami;Yusen+Xie+%7C+Robotics+%2B+AI+%7C+Carnegie+Mellon+University;%24+cat+%2Fetc%2Fmission;Building+machines+that+see%2C+think%2C+and+act;%24+systemctl+status+vector-os;%E2%97%8F+vector-os-nano.service+%E2%80%94+ACTIVE+(running)">
-
-</div>
-
----
-
-<div align="center">
-
-```
-╔══════════════════════════════════════════════════════════════╗
-║  $ cat /sys/info/about.md                                    ║
-╚══════════════════════════════════════════════════════════════╝
-```
-
-</div>
-
-```
-  I build robots end-to-end — from low-level motor control
-  to high-level AI reasoning.
-
-  AI Engineering @ Carnegie Mellon University.
-
-  Core maintainer of Vector OS Nano — a cross-embodiment robot
-  operating system with autonomous navigation, natural language
-  control, and sim-to-real transfer.
-
-  I believe the future belongs to machines that can perceive,
-  plan, and physically act in the real world.
-  I'm here to build that future.
-```
-
----
-
-<div align="center">
-
-```
-╔══════════════════════════════════════════════════════════════╗
-║  $ cat /org/vector-robotics/manifest.yml                     ║
-╚══════════════════════════════════════════════════════════════╝
-```
-
-<br>
-
-<a href="https://github.com/VectorRobotics"><img src="https://img.shields.io/badge/VectorRobotics-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-
-<h3>Co-founder & Builder</h3>
-
-<a href="https://github.com/VectorRobotics/vector-os-nano"><img src="https://img.shields.io/badge/Vector_OS_Nano-000000?style=for-the-badge&logo=ros&logoColor=white" /></a>
-<img src="https://img.shields.io/badge/ROS2_Humble-22314E?style=for-the-badge&logo=ros&logoColor=white" />
-<img src="https://img.shields.io/badge/MuJoCo-222222?style=for-the-badge&logoColor=white" />
-<img src="https://img.shields.io/badge/Isaac_Sim-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
-
-</div>
-
-**Cross-embodiment robot operating system** with industrial-grade autonomous navigation,
-natural language control, and sim-to-real transfer.
-
-Hardware: **Unitree Go2 + SO-ARM101** | CMU Robotics Institute
-
-<div align="center">
-
-| | |
-|---|---|
-| **vector-robotics-core** | General-purpose agentic robotics system (Ubuntu + ROS2) |
-| **openclaw-dashboard** | Terminal-aesthetic real-time agent monitoring panel |
-| **G1-locomotion** | End-to-end humanoid locomotion & manipulation |
-
-</div>
-
----
-
-<div align="center">
-
-```
-╔══════════════════════════════════════════════════════════════╗
-║  $ ls -la /sys/skills/                                       ║
-╚══════════════════════════════════════════════════════════════╝
-```
-
-</div>
-
-```
-drwxr-xr-x  PERCEPTION    Computer Vision, LiDAR, Sensor Fusion, SLAM
-drwxr-xr-x  PLANNING      Motion Planning, Task Scheduling, Behavior Trees
-drwxr-xr-x  CONTROL       Real-time C++ Controllers, ROS2 Lifecycle Nodes
-drwxr-xr-x  HARDWARE      FPGA, ESP32, AI+Hardware Co-design, Embedded
-drwxr-xr-x  SOFTWARE      React, Node.js, Docker, CI/CD, Full-Stack Web
-drwxr-xr-x  SIMULATION    Isaac Sim, MuJoCo, Gazebo, Sim-to-Real Transfer
-```
-
-<div align="center">
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
-  <img src="https://img.shields.io/badge/ROS2-22314E?style=flat-square&logo=ros&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/MuJoCo-222222?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/Isaac_Sim-76B900?style=flat-square&logo=nvidia&logoColor=white" />
-  <img src="https://img.shields.io/badge/FPGA-00979D?style=flat-square&logo=intel&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
+<p align="center">
+  <b>Yusen Xie</b> — whole-body RL + LLM agent kernels for legged robots
+  <br/>
+  <sub>AI Engineering @ Carnegie Mellon University (prev. USYD) &nbsp;-&nbsp; Co-founder, Vector Robotics</sub>
 </p>
-</div>
+
+<!-- Hand-written robotics HUD banner (assets/hud-banner.svg): lidar sweep, -->
+<!-- quadruped trot (diagonal pairs in antiphase), NL->decompose->plan->control -->
+<!-- pipeline, joint-state ticker, scanlines. Inline SMIL/CSS, system fonts only, -->
+<!-- self-contained dark panel — camo-safe and legible on GitHub dark and light. -->
+<!-- Non-clickable by design; the portfolio link lives on the robot GIF and the -->
+<!-- badge row below. width=100% so it never overflows GitHub's content column. -->
+<p align="center">
+  <img src="./assets/hud-banner.svg" width="100%" alt="Robotics HUD: lidar sweep, quadruped trot gait, natural-language to control pipeline" />
+</p>
+
+<p align="center">
+  <a href="https://yusenthebot.github.io"><img src="https://img.shields.io/badge/portfolio-enter_terminal-00FF9C?style=flat-square&logo=gnometerminal&logoColor=black&labelColor=0a0e14" alt="Terminal portfolio" /></a>
+  <a href="https://github.com/VectorRobotics"><img src="https://img.shields.io/badge/Vector_Robotics-co--founder-00FF9C?style=flat-square&logo=github&logoColor=white&labelColor=0a0e14" alt="Vector Robotics" /></a>
+  <a href="https://www.linkedin.com/in/yusen-xie-5327b8382/"><img src="https://img.shields.io/badge/LinkedIn-connect-00FF9C?style=flat-square&logo=linkedin&logoColor=white&labelColor=0a0e14" alt="LinkedIn" /></a>
+</p>
+
+<p align="center">
+  <a href="https://yusenthebot.github.io"><img src="./assets/robot.gif" width="200" alt="Pixel robot V — click to enter the terminal portfolio" /></a>
+</p>
+
+### `[ selected_work ]`
+
+> Physical-robot RL and control first; the tooling that makes it shippable second.
+
+| Project | What it is |
+|---|---|
+| **[vector-os-nano](https://github.com/VectorRobotics/vector-os-nano)** | Cross-embodiment robot OS. Natural-language control with no fine-tuning, ROS2 Nav2 autonomy, and an MCP server that exposes every robot skill plus live world state to Claude Code. Runs on Unitree Go2 and SO-ARM101. |
+| **[G1-locomotion-manipulation](https://github.com/yusenthebot/G1-end-to-end-locomotion-manipulation)** | Unitree G1 humanoid in Isaac Lab: two-phase decoupled-reward PPO (locomotion, then manipulation) across 2048 parallel envs. Success is gated on physical end-effector contact, not proximity; converges in ~2k iterations. |
+| **[vector-graph](https://github.com/yusenthebot/vector-graph)** | Live code knowledge graph for ROS2, rendered in-browser as a Three.js 3D force-graph nebula. Pure-`ast` call/impact analysis exposing 17 MCP tools so agents check risk before they edit. 824 tests, 86% coverage. |
+| **[openclaw-dashboard](https://github.com/yusenthebot/openclaw-dashboard)** | Builds on [mudrii/openclaw-dashboard](https://github.com/mudrii/openclaw-dashboard) — extended well past upstream with SSE-streamed live agent logs, billing-aware cost telemetry, and a terminal-aesthetic SPA for a local agent runtime (Python + Go). |
+
+<p align="center">
+  <sub><code>PyTorch - MuJoCo - Isaac Lab - ROS2 Jazzy - Nav2 - LiDAR / SLAM - MCP - Python - C++ - TypeScript - Docker</code></sub>
+</p>
 
 ---
 
-<div align="center">
+<!-- 3D contribution graph - generated daily by .github/workflows/profile-3d.yml, -->
+<!-- committed under profile-3d-contrib/ by the Action. Themed placeholder SVGs -->
+<!-- are committed at the same paths so this section never renders a broken image -->
+<!-- before the first run; the Action overwrites them with the real graphs. -->
+<!-- Fallback <img> uses the night variant deliberately: its dark panel is -->
+<!-- self-contained and legible on both GitHub themes. -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green.svg" />
+    <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D isometric contribution graph, regenerated daily by a GitHub Action (placeholder shown until the first run)" />
+  </picture>
+  <br/>
+  <sub><code>[ contribution telemetry - regenerated daily by a GitHub Action ]</code></sub>
+</p>
 
-```
-╔══════════════════════════════════════════════════════════════╗
-║  $ tail -f /var/log/current_focus.log                        ║
-╚══════════════════════════════════════════════════════════════╝
-```
-
-</div>
-
-```
-  [2025-04-03 ACTIVE]  Vector OS Nano — cross-embodiment autonomy stack
-  [2025-03-xx ACTIVE]  Embodied AI — end-to-end locomotion & manipulation
-  [2025-02-xx ACTIVE]  Humanoid Robotics — autonomous reward via MJX
-  [2025-01-xx DONE  ]  OpenClaw Dashboard — terminal-aesthetic agent monitor
-```
-
----
-
-<div align="center">
-
-```
-╔══════════════════════════════════════════════════════════════╗
-║  $ ping yusen-xie --establish-link                           ║
-╚══════════════════════════════════════════════════════════════╝
-```
-
-<br>
-
-<a href="https://yusenthebot.github.io"><img src="https://img.shields.io/badge/Terminal_Portfolio-000000?style=for-the-badge&logo=windowsterminal&logoColor=white" /></a>
-<a href="https://github.com/VectorRobotics"><img src="https://img.shields.io/badge/Vector_Robotics-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-<a href="https://www.linkedin.com/in/yusen-xie-5327b8382/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="mailto:yusenthebot@outlook.com"><img src="https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" /></a>
-
-<br><br>
-
-```
-┌───────────────────────────────────────────────────────────┐
-│  [ STATUS: ONLINE ]  //  "One actuator at a time."        │
-└───────────────────────────────────────────────────────────┘
-```
-
-</div>
+<p align="center">
+  <sub><code>[ contact ]</code> &nbsp;<a href="mailto:yusenthebot@outlook.com">yusenthebot@outlook.com</a></sub>
+</p>
