@@ -18,11 +18,13 @@
 
 <!-- Animated tagline: readme-typing-svg (demolab instance, verified live). -->
 <!-- <picture> serves a darker green on light theme so it stays readable. -->
+<!-- Lines deliberately do not repeat what the HUD's boot log and pipeline -->
+<!-- strip already animate. -->
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1200&duration=2600&color=00FF9C&center=true&vCenter=true&width=620&height=40&lines=%24+vector+%22fetch+the+bottle%22;decompose+-%3E+plan+-%3E+verify+-%3E+act;whole-body+RL+for+legged+robots;LLM+agent+kernel+--+no+fine-tuning;Unitree+Go2+%2B+SO-ARM101+--+sim2real" />
-    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1200&duration=2600&color=00935A&center=true&vCenter=true&width=620&height=40&lines=%24+vector+%22fetch+the+bottle%22;decompose+-%3E+plan+-%3E+verify+-%3E+act;whole-body+RL+for+legged+robots;LLM+agent+kernel+--+no+fine-tuning;Unitree+Go2+%2B+SO-ARM101+--+sim2real" />
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1200&duration=2600&color=00FF9C&center=true&vCenter=true&width=620&height=40&lines=%24+vector+%22fetch+the+bottle%22;decompose+-%3E+plan+-%3E+verify+-%3E+act;whole-body+RL+for+legged+robots;LLM+agent+kernel+--+no+fine-tuning;Unitree+Go2+%2B+SO-ARM101+--+sim2real" alt="Rotating terminal lines: vector fetch command, decompose to act pipeline, whole-body RL, LLM agent kernel, Go2 plus SO-ARM101 sim2real" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1200&duration=2600&color=00FF9C&center=true&vCenter=true&width=500&height=40&lines=whole-body+RL+for+legged+robots;LLM+agent+kernel+--+no+fine-tuning;Unitree+Go2+%2B+SO-ARM101+--+sim2real" />
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1200&duration=2600&color=00935A&center=true&vCenter=true&width=500&height=40&lines=whole-body+RL+for+legged+robots;LLM+agent+kernel+--+no+fine-tuning;Unitree+Go2+%2B+SO-ARM101+--+sim2real" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1200&duration=2600&color=00FF9C&center=true&vCenter=true&width=500&height=40&lines=whole-body+RL+for+legged+robots;LLM+agent+kernel+--+no+fine-tuning;Unitree+Go2+%2B+SO-ARM101+--+sim2real" alt="Rotating terminal lines: whole-body RL for legged robots, LLM agent kernel with no fine-tuning, Unitree Go2 plus SO-ARM101 sim2real" />
   </picture>
 </p>
 
@@ -33,7 +35,7 @@
 </p>
 
 <p align="center">
-  <a href="https://yusenthebot.github.io"><img src="./assets/robot.gif" width="200" alt="Pixel robot V — click to enter the terminal portfolio" /></a>
+  <a href="https://yusenthebot.github.io"><img src="./assets/robot.gif" width="160" alt="Pixel robot V — click to enter the terminal portfolio" /></a>
   <br/>
   <sub><code>now building -> vector-os-nano: one natural-language command in, whole-body motion out</code></sub>
 </p>
