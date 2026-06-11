@@ -33,80 +33,64 @@
 </p>
 
 <p align="center">
-  <a href="https://yusenthebot.github.io"><img src="./assets/robot.gif" width="240" alt="Pixel robot V — click to enter the terminal portfolio" /></a>
+  <a href="https://yusenthebot.github.io"><img src="./assets/robot.gif" width="200" alt="Pixel robot V — click to enter the terminal portfolio" /></a>
+  <br/>
+  <sub><code>now building -> vector-os-nano: one natural-language command in, whole-body motion out</code></sub>
 </p>
 
-### `[ selected_work ]`
+### `[ flagship ]`
 
-> Physical-robot RL and control first; the tooling that makes it shippable second.
-
-<!-- Repo pin card: github-readme-stats (verified 200 for VectorRobotics/vector-os-nano), -->
-<!-- self-contained dark panel so it reads on both GitHub themes. -->
+<!-- Repo pin card: github-readme-stats (verified 200), self-contained dark -->
+<!-- panel so it reads on both GitHub themes. -->
 <p align="center">
   <a href="https://github.com/VectorRobotics/vector-os-nano"><img src="https://github-readme-stats.vercel.app/api/pin/?username=VectorRobotics&repo=vector-os-nano&show_owner=true&bg_color=0a0e14&title_color=00FF9C&text_color=9fb1c1&icon_color=00FF9C&hide_border=true" alt="vector-os-nano repository card" /></a>
   <br/>
   <sub>Cross-embodiment robot OS — natural-language control with no fine-tuning, ROS2 Nav2 autonomy,<br/>and an MCP server exposing every robot skill plus live world state. Runs on Unitree Go2 and SO-ARM101.</sub>
 </p>
 
+<!-- The kernel loop. Mermaid renders natively on GitHub; theme:base with -->
+<!-- self-contained dark node fills stays legible on light and dark pages. -->
+```mermaid
+%%{init: {"theme": "base", "themeVariables": {"primaryColor": "#0d1117", "primaryTextColor": "#00ff9c", "primaryBorderColor": "#00c277", "lineColor": "#00a86b", "fontFamily": "monospace", "fontSize": "13px"}}}%%
+flowchart LR
+    NL["natural language"] --> DEC["decompose"]
+    DEC --> PLAN["plan"]
+    PLAN --> VER["verify"]
+    VER --> ACT["act"]
+    ACT --> WBC["whole-body control"]
+    WBC --> HW["Go2 + SO-ARM101"]
+    VER -.-> PLAN
+```
+
+<p align="center">
+  <sub><code>[ the agent kernel loop — every command runs through it ]</code></sub>
+</p>
+
+### `[ selected_work ]`
+
+> Physical-robot RL and control first; the tooling that makes it shippable second.
+
+| repo | signal |
+|------|--------|
+| [`G1Pilot`](https://github.com/VectorRobotics/G1Pilot) | C++ inverse kinematics for the Unitree G1 humanoid — Pinocchio + CasADi |
+| [`vector_perception`](https://github.com/VectorRobotics/vector_perception) | full perception pipeline for general robotics |
+| [`Hop-Dynamics`](https://github.com/yusenthebot/Hop-Dynamics) | wheeled bipedal robot with an active tail |
+| [`openclaw-dashboard`](https://github.com/yusenthebot/openclaw-dashboard) | terminal-aesthetic agent control panel |
+
 ### `[ stack ]`
 
-<p align="center">
-  <code>[ languages_and_tooling ]</code>
-  <br/><br/>
-  <img src="https://skillicons.dev/icons?i=python,cpp,pytorch,ros,opencv,ubuntu,linux,bash,docker,git,github,githubactions,cmake,raspberrypi,arduino,anaconda,ts,js,react,nextjs,fastapi,nodejs,go,threejs&perline=8" alt="Languages and tooling: Python, C++, PyTorch, ROS, OpenCV, Ubuntu, Linux, Bash, Docker, Git, GitHub, GitHub Actions, CMake, Raspberry Pi, Arduino, Anaconda, TypeScript, JavaScript, React, Next.js, FastAPI, Node.js, Go, Three.js" />
-</p>
+<pre>
+$ vector skills --tree
+.
+├── learning/     RL (PPO) · imitation · diffusion policy · VLA/VLN · sim2real
+├── control/      whole-body control · legged locomotion · IK · behavior trees · Nav2
+├── perception/   SLAM · LiDAR-IMU odometry · sensor fusion · YOLO
+├── simulation/   MuJoCo · Isaac Lab/Sim · Genesis · Gazebo
+└── agents/       LLM agent kernels · MCP servers · tool calling · Claude Code
+</pre>
 
 <p align="center">
-  <code>[ learning ]</code>
-  <br/>
-  <img src="https://img.shields.io/badge/-RL_(PPO)-00FF9C?style=flat-square&labelColor=0a0e14" alt="RL (PPO)" />
-  <img src="https://img.shields.io/badge/-Imitation_Learning-00FF9C?style=flat-square&labelColor=0a0e14" alt="Imitation Learning" />
-  <img src="https://img.shields.io/badge/-Diffusion_Policy-00FF9C?style=flat-square&labelColor=0a0e14" alt="Diffusion Policy" />
-  <img src="https://img.shields.io/badge/-VLA-00FF9C?style=flat-square&labelColor=0a0e14" alt="VLA" />
-  <img src="https://img.shields.io/badge/-VLN-00FF9C?style=flat-square&labelColor=0a0e14" alt="VLN" />
-  <img src="https://img.shields.io/badge/-Sim2Real-00FF9C?style=flat-square&labelColor=0a0e14" alt="Sim2Real" />
-  <img src="https://img.shields.io/badge/-Transformers-00FF9C?style=flat-square&labelColor=0a0e14" alt="Transformers" />
-  <img src="https://img.shields.io/badge/-LeRobot-00FF9C?style=flat-square&labelColor=0a0e14" alt="LeRobot" />
-  <img src="https://img.shields.io/badge/-Hugging_Face-00FF9C?style=flat-square&labelColor=0a0e14&logo=huggingface&logoColor=00FF9C" alt="Hugging Face" />
-</p>
-
-<p align="center">
-  <code>[ control ]</code>
-  <br/>
-  <img src="https://img.shields.io/badge/-Whole--Body_Control-00FF9C?style=flat-square&labelColor=0a0e14" alt="Whole-Body Control" />
-  <img src="https://img.shields.io/badge/-Legged_Locomotion-00FF9C?style=flat-square&labelColor=0a0e14" alt="Legged Locomotion" />
-  <img src="https://img.shields.io/badge/-Inverse_Kinematics-00FF9C?style=flat-square&labelColor=0a0e14" alt="Inverse Kinematics" />
-  <img src="https://img.shields.io/badge/-Behavior_Trees-00FF9C?style=flat-square&labelColor=0a0e14" alt="Behavior Trees" />
-  <img src="https://img.shields.io/badge/-Nav2-00FF9C?style=flat-square&labelColor=0a0e14&logo=ros&logoColor=00FF9C" alt="Nav2" />
-</p>
-
-<p align="center">
-  <code>[ perception ]</code>
-  <br/>
-  <img src="https://img.shields.io/badge/-SLAM-00FF9C?style=flat-square&labelColor=0a0e14" alt="SLAM" />
-  <img src="https://img.shields.io/badge/-LiDAR--IMU_Odometry-00FF9C?style=flat-square&labelColor=0a0e14" alt="LiDAR-IMU Odometry" />
-  <img src="https://img.shields.io/badge/-Sensor_Fusion-00FF9C?style=flat-square&labelColor=0a0e14" alt="Sensor Fusion" />
-  <img src="https://img.shields.io/badge/-YOLO-00FF9C?style=flat-square&labelColor=0a0e14" alt="YOLO" />
-</p>
-
-<p align="center">
-  <code>[ simulation ]</code>
-  <br/>
-  <img src="https://img.shields.io/badge/-MuJoCo-00FF9C?style=flat-square&labelColor=0a0e14" alt="MuJoCo" />
-  <img src="https://img.shields.io/badge/-Isaac_Lab-00FF9C?style=flat-square&labelColor=0a0e14&logo=nvidia&logoColor=00FF9C" alt="Isaac Lab" />
-  <img src="https://img.shields.io/badge/-Isaac_Sim-00FF9C?style=flat-square&labelColor=0a0e14&logo=nvidia&logoColor=00FF9C" alt="Isaac Sim" />
-  <img src="https://img.shields.io/badge/-Gazebo-00FF9C?style=flat-square&labelColor=0a0e14" alt="Gazebo" />
-  <img src="https://img.shields.io/badge/-Genesis-00FF9C?style=flat-square&labelColor=0a0e14" alt="Genesis" />
-</p>
-
-<p align="center">
-  <code>[ agents_and_infra ]</code>
-  <br/>
-  <img src="https://img.shields.io/badge/-MCP-00FF9C?style=flat-square&labelColor=0a0e14&logo=modelcontextprotocol&logoColor=00FF9C" alt="MCP" />
-  <img src="https://img.shields.io/badge/-LLM_Agents-00FF9C?style=flat-square&labelColor=0a0e14" alt="LLM Agents" />
-  <img src="https://img.shields.io/badge/-Tool_Calling-00FF9C?style=flat-square&labelColor=0a0e14" alt="Tool Calling" />
-  <img src="https://img.shields.io/badge/-Claude_Code-00FF9C?style=flat-square&labelColor=0a0e14&logo=claude&logoColor=00FF9C" alt="Claude Code" />
-  <img src="https://img.shields.io/badge/-CUDA-00FF9C?style=flat-square&labelColor=0a0e14&logo=nvidia&logoColor=00FF9C" alt="CUDA" />
+  <img src="https://skillicons.dev/icons?i=python,cpp,pytorch,ros,opencv,linux,bash,docker,git,githubactions,cmake,raspberrypi,ts,react,nextjs,fastapi&perline=8" alt="Tooling: Python, C++, PyTorch, ROS, OpenCV, Linux, Bash, Docker, Git, GitHub Actions, CMake, Raspberry Pi, TypeScript, React, Next.js, FastAPI" />
 </p>
 
 ---
