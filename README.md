@@ -28,10 +28,13 @@
   </picture>
 </p>
 
+<!-- Link badges: dark two-tone chips (near-black label, dark-slate message), -->
+<!-- white text for contrast; color lives only in the logo accent. Bright-green -->
+<!-- message backgrounds made the badge text unreadable (owner feedback). -->
 <p align="center">
-  <a href="https://yusenthebot.github.io"><img src="https://img.shields.io/badge/portfolio-enter_terminal-00FF9C?style=flat-square&logo=gnometerminal&logoColor=black&labelColor=0a0e14" alt="Terminal portfolio" /></a>
-  <a href="https://github.com/VectorRobotics"><img src="https://img.shields.io/badge/Vector_Robotics-co--founder-00FF9C?style=flat-square&logo=github&logoColor=white&labelColor=0a0e14" alt="Vector Robotics" /></a>
-  <a href="https://www.linkedin.com/in/yusen-xie-5327b8382/"><img src="https://img.shields.io/badge/LinkedIn-connect-00FF9C?style=flat-square&logo=linkedin&logoColor=white&labelColor=0a0e14" alt="LinkedIn" /></a>
+  <a href="https://yusenthebot.github.io"><img src="https://img.shields.io/badge/portfolio-enter_terminal-1b2330?style=flat-square&logo=gnometerminal&logoColor=00FF9C&labelColor=0a0e14" alt="Terminal portfolio" /></a>
+  <a href="https://github.com/VectorRobotics"><img src="https://img.shields.io/badge/Vector_Robotics-co--founder-1b2330?style=flat-square&logo=github&logoColor=white&labelColor=0a0e14" alt="Vector Robotics" /></a>
+  <a href="https://www.linkedin.com/in/yusen-xie-5327b8382/"><img src="https://img.shields.io/badge/LinkedIn-connect-1b2330?style=flat-square&logo=linkedin&logoColor=0A66C2&labelColor=0a0e14" alt="LinkedIn" /></a>
 </p>
 
 <p align="center">
