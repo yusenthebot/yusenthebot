@@ -1,0 +1,50 @@
+name: Contribution-Snake
+
+# Generates the snake animation over the contribution graph and publishes the
+# SVGs to the `output` branch. The README references them via
+# raw.githubusercontent.com/yusenthebot/yusenthebot/output/..., so those URLs
+# 404 until this workflow has run once.
+#
+# First-time setup: trigger once manually (Actions tab -> this workflow ->
+# "Run workflow") so the SVGs exist before the README is viewed.
+
+on:
+  schedule:
+    # 18:30 UTC daily, offset from profile-3d.yml so the two jobs never race.
+    - cron: "30 18 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+# Avoid overlapping runs racing on the output branch
+concurrency:
+  group: snake
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    name: generate-contribution-snake
+    steps:
+      - name: Generate snake SVGs
+        # Pinned to the commit SHA of the v3 release tag (supply-chain
+        # safety: this job has contents: write, so no floating tags).
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Publish SVGs to the output branch
+        # Pinned to the commit SHA of the v4 release tag.
+        uses: crazy-max/ghaction-github-pages@df5cc2bfa78282ded844b354faee141f06b41865 # v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
