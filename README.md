@@ -1,17 +1,29 @@
-<p align="center">
-  <b>Yusen Xie</b> — whole-body RL + LLM agent kernels for legged robots
-  <br/>
-  <sub>AI Engineering @ Carnegie Mellon University (prev. USYD) &nbsp;-&nbsp; Co-founder, Vector Robotics</sub>
-</p>
+<!-- ASCII name banner: all lines padded to exactly 67 chars (incl. trailing -->
+<!-- spaces) so per-line centering inside <pre> can never misalign the box art. -->
+<div align="center">
 
-<!-- Hand-written robotics HUD banner (assets/hud-banner.svg): lidar sweep, -->
-<!-- quadruped trot (diagonal pairs in antiphase), NL->decompose->plan->control -->
-<!-- pipeline, joint-state ticker, scanlines. Inline SMIL/CSS, system fonts only, -->
-<!-- self-contained dark panel — camo-safe and legible on GitHub dark and light. -->
-<!-- Non-clickable by design; the portfolio link lives on the robot GIF and the -->
-<!-- badge row below. width=100% so it never overflows GitHub's content column. -->
+<pre>
+██╗   ██╗██╗   ██╗███████╗███████╗███╗   ██╗    ██╗  ██╗██╗███████╗
+╚██╗ ██╔╝██║   ██║██╔════╝██╔════╝████╗  ██║    ╚██╗██╔╝██║██╔════╝
+ ╚████╔╝ ██║   ██║███████╗█████╗  ██╔██╗ ██║     ╚███╔╝ ██║█████╗  
+  ╚██╔╝  ██║   ██║╚════██║██╔══╝  ██║╚██╗██║     ██╔██╗ ██║██╔══╝  
+   ██║   ╚██████╔╝███████║███████╗██║ ╚████║    ██╔╝ ██╗██║███████╗
+   ╚═╝    ╚═════╝ ╚══════╝╚══════╝╚═╝  ╚═══╝    ╚═╝  ╚═╝╚═╝╚══════╝
+                                                                   
+        WHOLE-BODY RL + LLM AGENT KERNELS FOR LEGGED ROBOTS        
+        AI ENGINEERING @ CMU // CO-FOUNDER @ VECTOR ROBOTICS       
+</pre>
+
+</div>
+
+<!-- Animated tagline: readme-typing-svg (demolab instance, verified live). -->
+<!-- <picture> serves a darker green on light theme so it stays readable. -->
 <p align="center">
-  <img src="./assets/hud-banner.svg" width="100%" alt="Robotics HUD: lidar sweep, quadruped trot gait, natural-language to control pipeline" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1200&duration=2600&color=00FF9C&center=true&vCenter=true&width=620&height=40&lines=%24+vector+%22fetch+the+bottle%22;decompose+-%3E+plan+-%3E+verify+-%3E+act;whole-body+RL+for+legged+robots;LLM+agent+kernel+--+no+fine-tuning;Unitree+Go2+%2B+SO-ARM101+--+sim2real" />
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1200&duration=2600&color=00935A&center=true&vCenter=true&width=620&height=40&lines=%24+vector+%22fetch+the+bottle%22;decompose+-%3E+plan+-%3E+verify+-%3E+act;whole-body+RL+for+legged+robots;LLM+agent+kernel+--+no+fine-tuning;Unitree+Go2+%2B+SO-ARM101+--+sim2real" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1200&duration=2600&color=00FF9C&center=true&vCenter=true&width=620&height=40&lines=%24+vector+%22fetch+the+bottle%22;decompose+-%3E+plan+-%3E+verify+-%3E+act;whole-body+RL+for+legged+robots;LLM+agent+kernel+--+no+fine-tuning;Unitree+Go2+%2B+SO-ARM101+--+sim2real" alt="Rotating terminal lines: vector fetch command, decompose to act pipeline, whole-body RL, LLM agent kernel, Go2 plus SO-ARM101 sim2real" />
+  </picture>
 </p>
 
 <p align="center">
@@ -21,22 +33,80 @@
 </p>
 
 <p align="center">
-  <a href="https://yusenthebot.github.io"><img src="./assets/robot.gif" width="200" alt="Pixel robot V — click to enter the terminal portfolio" /></a>
+  <a href="https://yusenthebot.github.io"><img src="./assets/robot.gif" width="240" alt="Pixel robot V — click to enter the terminal portfolio" /></a>
 </p>
 
 ### `[ selected_work ]`
 
 > Physical-robot RL and control first; the tooling that makes it shippable second.
 
-| Project | What it is |
-|---|---|
-| **[vector-os-nano](https://github.com/VectorRobotics/vector-os-nano)** | Cross-embodiment robot OS. Natural-language control with no fine-tuning, ROS2 Nav2 autonomy, and an MCP server that exposes every robot skill plus live world state to Claude Code. Runs on Unitree Go2 and SO-ARM101. |
-| **[G1-locomotion-manipulation](https://github.com/yusenthebot/G1-end-to-end-locomotion-manipulation)** | Unitree G1 humanoid in Isaac Lab: two-phase decoupled-reward PPO (locomotion, then manipulation) across 2048 parallel envs. Success is gated on physical end-effector contact, not proximity; converges in ~2k iterations. |
-| **[vector-graph](https://github.com/yusenthebot/vector-graph)** | Live code knowledge graph for ROS2, rendered in-browser as a Three.js 3D force-graph nebula. Pure-`ast` call/impact analysis exposing 17 MCP tools so agents check risk before they edit. 824 tests, 86% coverage. |
-| **[openclaw-dashboard](https://github.com/yusenthebot/openclaw-dashboard)** | Builds on [mudrii/openclaw-dashboard](https://github.com/mudrii/openclaw-dashboard) — extended well past upstream with SSE-streamed live agent logs, billing-aware cost telemetry, and a terminal-aesthetic SPA for a local agent runtime (Python + Go). |
+<!-- Repo pin card: github-readme-stats (verified 200 for VectorRobotics/vector-os-nano), -->
+<!-- self-contained dark panel so it reads on both GitHub themes. -->
+<p align="center">
+  <a href="https://github.com/VectorRobotics/vector-os-nano"><img src="https://github-readme-stats.vercel.app/api/pin/?username=VectorRobotics&repo=vector-os-nano&show_owner=true&bg_color=0a0e14&title_color=00FF9C&text_color=9fb1c1&icon_color=00FF9C&hide_border=true" alt="vector-os-nano repository card" /></a>
+  <br/>
+  <sub>Cross-embodiment robot OS — natural-language control with no fine-tuning, ROS2 Nav2 autonomy,<br/>and an MCP server exposing every robot skill plus live world state. Runs on Unitree Go2 and SO-ARM101.</sub>
+</p>
+
+### `[ stack ]`
 
 <p align="center">
-  <sub><code>PyTorch - MuJoCo - Isaac Lab - ROS2 Jazzy - Nav2 - LiDAR / SLAM - MCP - Python - C++ - TypeScript - Docker</code></sub>
+  <code>[ languages_and_tooling ]</code>
+  <br/><br/>
+  <img src="https://skillicons.dev/icons?i=python,cpp,pytorch,ros,opencv,ubuntu,linux,bash,docker,git,github,githubactions,cmake,raspberrypi,arduino,anaconda,ts,js,react,nextjs,fastapi,nodejs,go,threejs&perline=8" alt="Languages and tooling: Python, C++, PyTorch, ROS, OpenCV, Ubuntu, Linux, Bash, Docker, Git, GitHub, GitHub Actions, CMake, Raspberry Pi, Arduino, Anaconda, TypeScript, JavaScript, React, Next.js, FastAPI, Node.js, Go, Three.js" />
+</p>
+
+<p align="center">
+  <code>[ learning ]</code>
+  <br/>
+  <img src="https://img.shields.io/badge/-RL_(PPO)-00FF9C?style=flat-square&labelColor=0a0e14" alt="RL (PPO)" />
+  <img src="https://img.shields.io/badge/-Imitation_Learning-00FF9C?style=flat-square&labelColor=0a0e14" alt="Imitation Learning" />
+  <img src="https://img.shields.io/badge/-Diffusion_Policy-00FF9C?style=flat-square&labelColor=0a0e14" alt="Diffusion Policy" />
+  <img src="https://img.shields.io/badge/-VLA-00FF9C?style=flat-square&labelColor=0a0e14" alt="VLA" />
+  <img src="https://img.shields.io/badge/-VLN-00FF9C?style=flat-square&labelColor=0a0e14" alt="VLN" />
+  <img src="https://img.shields.io/badge/-Sim2Real-00FF9C?style=flat-square&labelColor=0a0e14" alt="Sim2Real" />
+  <img src="https://img.shields.io/badge/-Transformers-00FF9C?style=flat-square&labelColor=0a0e14" alt="Transformers" />
+  <img src="https://img.shields.io/badge/-LeRobot-00FF9C?style=flat-square&labelColor=0a0e14" alt="LeRobot" />
+  <img src="https://img.shields.io/badge/-Hugging_Face-00FF9C?style=flat-square&labelColor=0a0e14&logo=huggingface&logoColor=00FF9C" alt="Hugging Face" />
+</p>
+
+<p align="center">
+  <code>[ control ]</code>
+  <br/>
+  <img src="https://img.shields.io/badge/-Whole--Body_Control-00FF9C?style=flat-square&labelColor=0a0e14" alt="Whole-Body Control" />
+  <img src="https://img.shields.io/badge/-Legged_Locomotion-00FF9C?style=flat-square&labelColor=0a0e14" alt="Legged Locomotion" />
+  <img src="https://img.shields.io/badge/-Inverse_Kinematics-00FF9C?style=flat-square&labelColor=0a0e14" alt="Inverse Kinematics" />
+  <img src="https://img.shields.io/badge/-Behavior_Trees-00FF9C?style=flat-square&labelColor=0a0e14" alt="Behavior Trees" />
+  <img src="https://img.shields.io/badge/-Nav2-00FF9C?style=flat-square&labelColor=0a0e14&logo=ros&logoColor=00FF9C" alt="Nav2" />
+</p>
+
+<p align="center">
+  <code>[ perception ]</code>
+  <br/>
+  <img src="https://img.shields.io/badge/-SLAM-00FF9C?style=flat-square&labelColor=0a0e14" alt="SLAM" />
+  <img src="https://img.shields.io/badge/-LiDAR--IMU_Odometry-00FF9C?style=flat-square&labelColor=0a0e14" alt="LiDAR-IMU Odometry" />
+  <img src="https://img.shields.io/badge/-Sensor_Fusion-00FF9C?style=flat-square&labelColor=0a0e14" alt="Sensor Fusion" />
+  <img src="https://img.shields.io/badge/-YOLO-00FF9C?style=flat-square&labelColor=0a0e14" alt="YOLO" />
+</p>
+
+<p align="center">
+  <code>[ simulation ]</code>
+  <br/>
+  <img src="https://img.shields.io/badge/-MuJoCo-00FF9C?style=flat-square&labelColor=0a0e14" alt="MuJoCo" />
+  <img src="https://img.shields.io/badge/-Isaac_Lab-00FF9C?style=flat-square&labelColor=0a0e14&logo=nvidia&logoColor=00FF9C" alt="Isaac Lab" />
+  <img src="https://img.shields.io/badge/-Isaac_Sim-00FF9C?style=flat-square&labelColor=0a0e14&logo=nvidia&logoColor=00FF9C" alt="Isaac Sim" />
+  <img src="https://img.shields.io/badge/-Gazebo-00FF9C?style=flat-square&labelColor=0a0e14" alt="Gazebo" />
+  <img src="https://img.shields.io/badge/-Genesis-00FF9C?style=flat-square&labelColor=0a0e14" alt="Genesis" />
+</p>
+
+<p align="center">
+  <code>[ agents_and_infra ]</code>
+  <br/>
+  <img src="https://img.shields.io/badge/-MCP-00FF9C?style=flat-square&labelColor=0a0e14&logo=modelcontextprotocol&logoColor=00FF9C" alt="MCP" />
+  <img src="https://img.shields.io/badge/-LLM_Agents-00FF9C?style=flat-square&labelColor=0a0e14" alt="LLM Agents" />
+  <img src="https://img.shields.io/badge/-Tool_Calling-00FF9C?style=flat-square&labelColor=0a0e14" alt="Tool Calling" />
+  <img src="https://img.shields.io/badge/-Claude_Code-00FF9C?style=flat-square&labelColor=0a0e14&logo=claude&logoColor=00FF9C" alt="Claude Code" />
+  <img src="https://img.shields.io/badge/-CUDA-00FF9C?style=flat-square&labelColor=0a0e14&logo=nvidia&logoColor=00FF9C" alt="CUDA" />
 </p>
 
 ---
