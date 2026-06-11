@@ -48,22 +48,13 @@
   <sub>Cross-embodiment robot OS — natural-language control with no fine-tuning, ROS2 Nav2 autonomy,<br/>and an MCP server exposing every robot skill plus live world state. Runs on Unitree Go2 and SO-ARM101.</sub>
 </p>
 
-<!-- The kernel loop. Mermaid renders natively on GitHub; theme:base with -->
-<!-- self-contained dark node fills stays legible on light and dark pages. -->
-```mermaid
-%%{init: {"theme": "base", "themeVariables": {"primaryColor": "#0d1117", "primaryTextColor": "#00ff9c", "primaryBorderColor": "#00c277", "lineColor": "#00a86b", "fontFamily": "monospace", "fontSize": "13px"}}}%%
-flowchart LR
-    NL["natural language"] --> DEC["decompose"]
-    DEC --> PLAN["plan"]
-    PLAN --> VER["verify"]
-    VER --> ACT["act"]
-    ACT --> WBC["whole-body control"]
-    WBC --> HW["Go2 + SO-ARM101"]
-    VER -.-> PLAN
-```
-
+<!-- Hand-authored animated HUD: SMIL + in-SVG CSS keyframes, self-contained -->
+<!-- dark panel (legible on both themes), system monospace fonts only, no -->
+<!-- external refs, no JS. Animates when served through GitHub's camo proxy. -->
 <p align="center">
-  <sub><code>[ the agent kernel loop — every command runs through it ]</code></sub>
+  <img src="./assets/vector-hud.svg" width="880" alt="Animated telemetry HUD: lidar radar sweep, scrolling joint waveforms, trot gait phase bars, looping agent-kernel boot log, and the NL to decompose to plan to verify to act to whole-body-control pipeline with a traveling pulse and a verify-to-plan retry edge" />
+  <br/>
+  <sub><code>[ the kernel loop, live — hand-rolled animated SVG, zero JS ]</code></sub>
 </p>
 
 ### `[ selected_work ]`
