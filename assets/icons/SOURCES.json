@@ -1,0 +1,52 @@
+{
+  "library": "GitHub Octicons",
+  "date": "2026-11-09",
+  "license": "MIT",
+  "modification": "Fixed fill #3b82c4 for contrast in GitHub light and dark themes; paths unchanged.",
+  "sources": [
+    {
+      "name": "briefcase-24",
+      "url": "https://raw.githubusercontent.com/primer/octicons/main/icons/briefcase-24.svg"
+    },
+    {
+      "name": "repo-24",
+      "url": "https://raw.githubusercontent.com/primer/octicons/main/icons/repo-24.svg"
+    },
+    {
+      "name": "broadcast-24",
+      "url": "https://raw.githubusercontent.com/primer/octicons/main/icons/broadcast-24.svg"
+    },
+    {
+      "name": "code-24",
+      "url": "https://raw.githubusercontent.com/primer/octicons/main/icons/code-24.svg"
+    },
+    {
+      "name": "beaker-24",
+      "url": "https://raw.githubusercontent.com/primer/octicons/main/icons/beaker-24.svg"
+    },
+    {
+      "name": "globe-16",
+      "url": "https://raw.githubusercontent.com/primer/octicons/main/icons/globe-16.svg"
+    },
+    {
+      "name": "person-16",
+      "url": "https://raw.githubusercontent.com/primer/octicons/main/icons/person-16.svg"
+    },
+    {
+      "name": "mail-16",
+      "url": "https://raw.githubusercontent.com/primer/octicons/main/icons/mail-16.svg"
+    },
+    {
+      "name": "book-16",
+      "url": "https://raw.githubusercontent.com/primer/octicons/main/icons/book-16.svg"
+    },
+    {
+      "name": "video-16",
+      "url": "https://raw.githubusercontent.com/primer/octicons/main/icons/video-16.svg"
+    },
+    {
+      "name": "check-circle-16",
+      "url": "https://raw.githubusercontent.com/primer/octicons/main/icons/check-circle-16.svg"
+    }
+  ]
+}
