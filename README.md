@@ -10,6 +10,7 @@ Student Researcher at CMU Robotics Institute. Previously co-founded Vector Robot
 <p>
   <a href="https://yusenthebot.github.io/"><img src="./assets/icons/globe-16.svg" width="16" height="16" alt="" /> Portfolio</a> &nbsp;·&nbsp;
   <a href="https://www.linkedin.com/in/yusenxie/"><img src="./assets/icons/person-16.svg" width="16" height="16" alt="" /> LinkedIn</a> &nbsp;·&nbsp;
+  <a href="https://x.com/YusenTheBot"><img src="./assets/brands/x.svg" width="16" height="16" alt="" /> X</a> &nbsp;·&nbsp;
   <a href="mailto:yusenthebot@outlook.com"><img src="./assets/icons/mail-16.svg" width="16" height="16" alt="" /> Email</a>
 </p>
 
@@ -60,6 +61,7 @@ A frozen fruit-fly connectome controls a simulated robot arm through trained inp
 
 I make Chinese-language explainers about AI and robotics, connecting research papers with diagrams, simulations and hands-on experiments.
 
+<a href="https://x.com/YusenTheBot"><img src="./assets/brands/x.svg" width="16" height="16" alt="" /> <strong>X / Twitter</strong></a> — `@YusenTheBot`<br />
 <picture><img src="./assets/icons/book-16.svg" width="16" height="16" alt="" /></picture> **[小红书 / Xiaohongshu](https://www.xiaohongshu.com/user/profile/634fb268000000001901c721)** — Yusenthebot  
 <picture><img src="./assets/icons/video-16.svg" width="16" height="16" alt="" /></picture> **抖音 / Douyin** — `@yusenthebot` · ID `59586023375`
 

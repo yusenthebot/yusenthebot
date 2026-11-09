@@ -1,0 +1,8 @@
+{
+  "library": "Simple Icons",
+  "icon": "X",
+  "source": "https://github.com/simple-icons/simple-icons/blob/develop/icons/x.svg",
+  "license": "CC0-1.0",
+  "date": "2026-11-09",
+  "modification": "Fixed fill #3b82c4 to match the profile icon set. Original path unchanged."
+}
