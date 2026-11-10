@@ -9,6 +9,7 @@ Student Researcher at CMU Robotics Institute. Previously co-founded Vector Robot
 
 <p>
   <a href="https://yusenthebot.github.io/"><img src="./assets/icons/globe-16.svg" width="16" height="16" alt="" /> Portfolio</a> &nbsp;·&nbsp;
+  <a href="https://yusenthebot.github.io/blog/"><img src="./assets/icons/book-16.svg" width="16" height="16" alt="" /> Blog</a> &nbsp;·&nbsp;
   <a href="https://www.linkedin.com/in/yusenxie/"><img src="./assets/icons/person-16.svg" width="16" height="16" alt="" /> LinkedIn</a> &nbsp;·&nbsp;
   <a href="https://x.com/YusenTheBot"><img src="./assets/brands/x.svg" width="16" height="16" alt="" /> X</a> &nbsp;·&nbsp;
   <a href="mailto:yusenthebot@outlook.com"><img src="./assets/icons/mail-16.svg" width="16" height="16" alt="" /> Email</a>
