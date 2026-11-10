@@ -15,11 +15,11 @@ Student Researcher at CMU Robotics Institute. Previously co-founded Vector Robot
 </p>
 
 <p align="center">
-  <a href="https://yusenthebot.github.io/#/terminal">
-    <img src="./assets/robot.gif" width="160" alt="V, my pixel robot — enter the interactive Terminal" />
+  <a href="https://yusenthebot.github.io/">
+    <img src="./assets/robot.gif" width="160" alt="V, my pixel robot. Open my portfolio." />
   </a>
   <br />
-  <a href="https://yusenthebot.github.io/#/terminal"><code>Enter my world →</code></a>
+  <a href="https://yusenthebot.github.io/"><code>Enter my world →</code></a>
 </p>
 
 ## <picture><img src="./assets/icons/briefcase-24.svg" width="22" height="22" alt="" /></picture> `~/now`
